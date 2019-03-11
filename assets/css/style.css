@@ -16,19 +16,24 @@ body{
 
 .container {
     width: 100%;
-    max-width: 960px;
+    max-width: 1200px;
     margin: auto;
     clear: both;
+    
 }
 
 #header{    
     width: 100%;    
     overflow: auto;
     color: #ffffff;
-    background: #ffffff;
+    background: #f7f0f0;
     border-bottom: 3px solid #a67c00;
-    
+    position: fixed;
+    top: 0;
+      
 }
+
+
 #name{
     background-color:#bf9b30;
     float: left;
@@ -59,12 +64,22 @@ nav a {
     line-height: 18px;
 }
 
+nav a:hover{
+
+    background-color: #bf9b30;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 10%;
+}
+
 #main{
+    max-width: 1200px;
     width: 80%;
-    margin:20px auto;
-    background-color: #ffffff;
+    margin:125px auto;
+    background-color: #f7f0f0;
     color: #777777;
-    overflow: auto;    
+    overflow: auto; 
+    
 }
 h2{
     padding: 20px 0px 20px 20px;
@@ -73,15 +88,18 @@ h2{
     color: #a67c00;
 }
 img{
-    height: 150px;
+    height: 300px;
+    width: auto;
     float: left;
-    margin: 10px ;
+    margin: 20px ;
+    margin-right: 30px;
 }
-.bio{
-    margin: 10px;
-    
-    
+.bio{  
+    line-height: 50px;
+    margin: 50px 20px;   
 }
+
+
 footer{
     
     width: 100%;
@@ -91,7 +109,7 @@ footer{
     border-top:solid 5px #a67c00;
     height: 50px;
     margin:  auto;
-    padding: 10px  ;
+    padding: 5px  ;
     bottom: 0;
     clear: both;
     
