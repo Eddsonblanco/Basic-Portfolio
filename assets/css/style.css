@@ -16,7 +16,7 @@ body{
 
 .container {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1000px;
     margin: auto;
     clear: both;
     
@@ -73,7 +73,7 @@ nav a:hover{
 }
 
 #main{
-    max-width: 1200px;
+    max-width: 1000px;
     width: 80%;
     margin:125px auto;
     background-color: #f7f0f0;
@@ -116,3 +116,82 @@ footer{
     
 
 }
+
+/*-----Portafolio----*/
+
+
+#main2{
+    max-width: 800px;
+    margin: auto;
+    color: #777777;
+}
+.work .container-work img{
+    width: 200px;
+    height: auto;
+    
+}
+ 
+
+/*--------Contacto-------*/
+
+#main3{
+    max-width: 1000px;
+    width: 100%;
+    margin:125px auto 10px;
+    background-color: #f7f0f0;
+    color: #777777;
+    
+}
+
+h4{
+    margin: 10px;
+}
+
+form input,
+form textarea{
+    width: 100%;
+    max-width: 900px;
+    border: 0.5px solid #a67c00;
+    padding: 10px;
+    margin: 0 20px 0 10px;
+    overflow: auto;
+    border-radius: 5px;
+}
+.btn{
+    background-color: #f7f0f0;
+    border: 0.5px solid #a67c00;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    color:#777777;
+    border-radius: 10px;
+}
+
+.btn:hover{
+    background-color: #bf9b30;
+    color: #f7f0f0;
+
+}
+
+.social-media{
+    margin-bottom: 100px;
+}
+#icon{
+
+    font-size: 50px;
+    text-decoration: none;
+    color: #a67c00;
+    margin: 0px 30px 100px 0px;
+    
+
+}
+
+#social-media{
+    text-align: center;
+}
+
+
+
+
+
+
